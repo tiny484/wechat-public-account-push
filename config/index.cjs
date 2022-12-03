@@ -13,13 +13,13 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'c8873f80dd0a5a6096886aae010475c9',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '江苏',
+  CITY: '南京',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: 'Tiny',
+      name: '扶南',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oI7L86k1GVJuOUB3vg0EvijK7BRw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -33,16 +33,13 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2018', date: '08-12',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2018-08-10' }
+        { keyword: 'love_day', date: '2018-08-12' }
       ],
     },
   ],
