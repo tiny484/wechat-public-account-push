@@ -19,7 +19,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '微信文件助手',
+      name: 'Tiny',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oI7L86k1GVJuOUB3vg0EvijK7BRw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
